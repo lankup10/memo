@@ -1,0 +1,14 @@
+〜新しくフォルダを作った場合〜
+1. git init
+2. git add .
+3. git commit -m "（任意のコメント）"
+4. githubのページにアクセスし、新しいリポジトリを作成
+5. $ git remote add origin https://~~ をコピーして、ターミナルに貼り付ける。
+6. git push -u origin master
+7. githubのユーザーネームとパスワードを入力
+8. githubのページを更新するとアップロードが完了している。
+
+〜既存のフォルダ内のファイルをアップする場合〜
+1. git add .
+2. git commit -m "（任意のコメント）"
+3. git push -u （origin master はいらない）
